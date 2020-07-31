@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的短信投注",
+  "usingComponents": {
+    "tabs": "/components/tabs/tabs"
+  }
+}

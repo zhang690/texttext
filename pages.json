@@ -1,0 +1,258 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/login/userLogin",
+			"style": {
+				"navigationBarTitleText": "用户登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "福彩到家"
+			}
+		},
+		{
+			"path": "pages/rider/riderList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/index/caijuan",
+			"style": {
+				"navigationBarTitleText": "我的彩券"
+			}
+		},
+		{
+			"path": "pages/rider/riderPeisong",
+			"style": {
+				"navigationBarTitleText": "待配送"
+			}
+		},
+		{
+			"path": "pages/rider/riderWancheng",
+			"style": {
+				"navigationBarTitleText": "已送达"
+			}
+		},
+		{
+			"path": "pages/setadress/adressList",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/kaijiang/fucaiDetail",
+			"style": {
+				"navigationBarTitleText": "福彩3D开奖历史"
+			}
+		},
+		{
+			"path": "pages/rider/riderDetail",
+			"style": {
+				"navigationBarTitleText": "待领取"
+			}
+		},
+		{
+			"path": "pages/getHome/getHome",
+			"style": {
+				"navigationBarTitleText": "福彩到家"
+			}
+		},
+		
+		{
+			"path": "pages/login/merchantLogin",
+			"style": {
+				"navigationBarTitleText": "商户登录"
+			}
+		},
+		{
+			"path": "pages/login/riderLogin",
+			"style": {
+				"navigationBarTitleText": "骑手登录"
+			}
+		},
+		{
+			"path": "pages/mine/tuijian",
+			"style": {
+				"navigationBarTitleText": "推荐有礼"
+			}
+		},
+		{
+			"path": "pages/luckyWheel/luckyWheel",
+			"style": {
+				"navigationBarTitleText": "抽奖"
+			}
+		},
+		{
+			"path": "pages/mine/duihuanRecord",
+			"style": {
+				"navigationBarTitleText": "兑换记录"
+			}
+		},
+		{
+			"path": "pages/index/guaguale",
+			"style": {
+				"navigationBarTitleText": "刮刮乐"
+			}
+		},
+		{
+			"path": "pages/mine/jifenIntegral",
+			"style": {
+				"navigationBarTitleText": "积分兑换"
+			}
+		},
+		{
+			"path": "pages/selectOrder/selectOrder",
+			"style": {
+				"navigationBarTitleText": "选号单"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectCodeqicai",
+			"style": {
+				"navigationBarTitleText": "七乐彩"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectThreeD",
+			"style": {
+				"navigationBarTitleText": "福彩3D"
+			}
+		},
+		{
+			"path": "pages/kaijiang/kaijiang",
+			"style": {
+				"navigationBarTitleText": "开奖"
+			}
+		},
+		{
+			"path": "pages/kaijiang/qilecaiDetail",
+			"style": {
+				"navigationBarTitleText": "七乐彩历史开奖"
+			}
+		},
+		{
+			"path": "pages/kaijiang/shuangseDetail",
+			"style": {
+				"navigationBarTitleText": "双色球历史开奖"
+			}
+		},
+		{
+			"path": "pages/selectCode/selectCode",
+			"style": {
+				"navigationBarTitleText": "双色球选号"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "福彩到家"
+
+			}
+		},
+		{
+			"path": "pages/mine/jifen",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+
+			}
+		},
+		{
+			"path": "pages/mine/myjifen",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+
+			}
+		},
+		{
+			"path": "pages/mine/waitTicket",
+			"style": {
+				"navigationBarTitleText": "待出票"
+
+			}
+		},
+		{
+			"path": "pages/mine/waitRecive",
+			"style": {
+				"navigationBarTitleText": "待领取"
+
+			}
+		},
+		{
+			"path": "pages/mine/wancheng",
+			"style": {
+				"navigationBarTitleText": "已完成"
+
+			}
+		},
+		{
+			"path": "pages/setadress/setAdress",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+
+			}
+		},
+		{
+			"path": "pages/giveSelect/giveSelect",
+			"style": {
+				"navigationBarTitleText": "配送方式"
+
+			}
+		},
+		{
+			"path": "pages/order/myOrder",
+			"style": {
+				"navigationBarTitleText": "我的短信投注"
+
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#f0716f",
+		"backgroundColor": "#fff",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/tabbar/index.png",
+				"selectedIconPath": "./static/tabbar/index_active.png"
+			},
+			{
+				"pagePath": "pages/kaijiang/kaijiang",
+				"text": "开奖",
+				"iconPath": "./static/tabbar/jiangbei.png",
+				"selectedIconPath": "./static/tabbar/jiangbei_active.png"
+			},
+			{
+				"pagePath": "pages/getHome/getHome",
+				"text": "福彩到家",
+				"iconPath": "./static/tabbar/book.png",
+				"selectedIconPath": "./static/tabbar/book_active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "./static/tabbar/me.png",
+				"selectedIconPath": "./static/tabbar/me_active.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"sitemapLocation":"sitemap.json"
+}

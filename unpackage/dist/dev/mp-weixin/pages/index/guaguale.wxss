@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.scraping.data-v-5251ceef {
+  position: relative;
+}
+.scraping .page-bg.data-v-5251ceef {
+  height: 100vh;
+}
+.scraping .scrap-container.data-v-5251ceef {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-top: 80rpx;
+}
+.scraping .scrap-container .scrap-title.data-v-5251ceef {
+  width: 80%;
+  margin: 0 auto;
+}
+.scraping .scrap-container .scrap-content.data-v-5251ceef {
+  width: 95%;
+  background-color: rgba(235, 155, 195, 0.4);
+  margin: 30rpx auto 0;
+  padding-top: 25rpx;
+}
+.scraping .scrap-container .scrap-content .content-header.data-v-5251ceef {
+  width: 260rpx;
+  height: 50rpx;
+  margin: 0 auto;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap.data-v-5251ceef {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-top: 30rpx;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  padding: 0 20rpx 20rpx;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item.data-v-5251ceef {
+  width: 45%;
+  height: 200rpx;
+  position: relative;
+  margin-top: 20rpx;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item .item-bg.data-v-5251ceef {
+  height: 100%;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item .item-info.data-v-5251ceef {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item .item-info .item-text.data-v-5251ceef {
+  width: 180rpx;
+  color: #e7905b;
+  font-size: 36rpx;
+  letter-spacing: 4rpx;
+  margin: 25rpx auto 0;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item .item-info .item-change.data-v-5251ceef {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item .item-info .item-change .jian.data-v-5251ceef {
+  color: #fff;
+  width: 40rpx;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item .item-info .item-change .chang-text.data-v-5251ceef {
+  color: #fff;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item .item-info .item-change .jia.data-v-5251ceef {
+  color: #fff;
+  width: 40rpx;
+}
+.scraping .scrap-container .scrap-content .scrap-wrap .scrap-item .item-info .item-btn.data-v-5251ceef {
+  margin: 25rpx auto 0;
+  background-color: #e7905b;
+  width: 180rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 25rpx;
+  color: #fff;
+}
+.scraping .scrap-container .sure-buy.data-v-5251ceef {
+  width: 300rpx;
+  height: 70rpx;
+  background-color: #fec44b;
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 35rpx;
+  margin: 20rpx auto 0;
+  box-shadow: 2rpx 6rpx  #df763e;
+  color: #fff;
+}
+

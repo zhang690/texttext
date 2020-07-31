@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "开奖",
+  "usingComponents": {
+    "swiper-item": "/components/swiper/SwiperItem"
+  }
+}

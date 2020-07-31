@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "福彩到家",
+  "usingComponents": {
+    "swiper-item": "/components/swiper/SwiperItem"
+  }
+}
